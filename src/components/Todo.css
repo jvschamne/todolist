@@ -1,0 +1,38 @@
+.Todo{
+    background-color: #fff;
+    width: 70%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2vh;
+    position: relative;
+}
+
+.Buttons{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Todo button{
+    height: 100%;
+    width: 8vh;
+    border: none;
+    cursor: pointer;
+}
+
+.RemoveButton{
+   background-color: red;
+}
+
+.CompleteButton{
+    background-color: rgb(49, 234, 83);
+}
+
+h3{
+    color: #1a1623;
+    padding-left: 20px;
+}

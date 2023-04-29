@@ -1,0 +1,28 @@
+.Container{
+    margin-top: 5vh;
+    min-height: 90vh;
+    /*height: 90vh;*/
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #1a1623;
+    -webkit-box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.75);
+}
+
+.AddNewTodo{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-bottom: 5vh;
+    border: 3px solid #b520ec;
+    border-radius: 5px;
+}
+
+h1{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}

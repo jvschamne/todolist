@@ -1,0 +1,12 @@
+.Add-button{
+    padding: 1.2rem;
+    flex-grow: 1;
+    background: rgb(132,128,255);
+    background: linear-gradient(90deg, rgba(132,128,255,0.9949229691876751) 0%, rgba(93,0,255,1) 99%);
+    cursor: pointer;
+    border: none;
+}
+
+.Add-button:hover{
+    background: rgb(93,0,255,1);
+}
